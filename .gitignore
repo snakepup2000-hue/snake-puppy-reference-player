@@ -1,0 +1,24 @@
+build*/
+Tests/Fixtures/
+dist/
+*.xcuserstate
+.DS_Store
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+
+# Build/test output
+build*/
+dist/
+*.log
+*.dmg
+
+# Local app fixtures
+Tests/Fixtures/
+
+# IDE
+.vscode/
+.idea/
+
+# CI workflow is added manually with workflow scope; see docs/ci.yml
+.github/workflows/
